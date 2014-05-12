@@ -1,22 +1,16 @@
 <?php
 
-class StopIteration extends Exception {
-}
+class StopIteration extends Exception {}
 
-class DatabaseError extends Exception {
-}
+class DatabaseError extends Exception {}
 
-class NotImplemented extends DatabaseError {
-}
+class NotImplemented extends DatabaseError {}
 
-class NotSupported extends DatabaseError {
-}
+class NotSupported extends DatabaseError {}
 
-class ProgrammingError extends DatabaseError {
-}
+class ProgrammingError extends DatabaseError {}
 
-class ConnectionError extends DatabaseError {
-}
+class ConnectionError extends DatabaseError {}
 
 class Cursor {
 
