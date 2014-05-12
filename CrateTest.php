@@ -23,9 +23,13 @@ $c->execute('INSERT INTO "userinfo" ("username", "info") values (\'christian\',\
 $result = $c->fetchone();
 var_dump($result);
 
+sleep(1);
+
 $c->execute('SELECT * from "userinfo"');
 $result = $c->fetchall();
 var_dump($result);
+
+$c->execute('DROP TABLE "userinfo"');
 
 $conn->close();
 
